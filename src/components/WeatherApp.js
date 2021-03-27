@@ -29,7 +29,7 @@ const WeatherApp = () => {
             const firstapikey = "aee03cc8b666d14b02671a88ca207cd5";
             // const secondapikey = "c7a7e414832a36ad770226e190161e49";
             /* For Language :  http://api.openweathermap.org/data/2.5/weather?q=${submitCity}&appid=${secondapikey}&lang={lang} */
-            const weatherurl = `http://api.openweathermap.org/data/2.5/weather?q=${submitCity}&appid=${firstapikey}&units=metric`;
+            const weatherurl = `https://api.openweathermap.org/data/2.5/weather?q=${submitCity}&appid=${firstapikey}&units=metric`;
             const response = await fetch(weatherurl);
              console.log(response);
             const respJson = await response.json();
