@@ -31,7 +31,7 @@ const WeatherApp = () => {
             /* For Language :  http://api.openweathermap.org/data/2.5/weather?q=${submitCity}&appid=${secondapikey}&lang={lang} */
             const weatherurl = `https://api.openweathermap.org/data/2.5/weather?q=${submitCity}&appid=${firstapikey}&units=metric`;
             const response = await fetch(weatherurl);
-             console.log(response);
+            // console.log(response);
             const respJson = await response.json();
             // console.log(respJson);
             
