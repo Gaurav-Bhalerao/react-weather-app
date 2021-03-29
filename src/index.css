@@ -8,6 +8,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #164794;
+  color: #ffc100;
 }
 
 code {
@@ -19,7 +21,7 @@ code {
 
 .weather-app-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   /*
   background-color: #F3CA20;
   color : #000000;
@@ -28,8 +30,6 @@ code {
   background-color: #320D3E;
   color : #FFD79d;
   */
-  background-color: #164794;
-  color: #ffc100;
 }
 
 .first-section-container {
